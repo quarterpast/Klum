@@ -1,4 +1,4 @@
-# Klum
+# Klum [![Build Status](https://travis-ci.org/quarterto/Klum.svg)](https://travis-ci.org/quarterto/Klum)
 
 Minimal models
 
