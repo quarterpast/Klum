@@ -25,7 +25,7 @@ class exports.Collection implements eventide
 	models-fn = (k)->
 		Collection[k] = (fn, ...args)-> new @constructor @models[k] (fn.bind this), ...args
 
-	<[ map filter reduce reduceRight some every find indexOf lastIndexOf ]> .for-each models-fn
+	<[ map filter reduce reduceRight some every find ]> .for-each models-fn
 
 	concat: (o)->
 		new @constructor (@models ++ o.models)
