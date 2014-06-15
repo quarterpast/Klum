@@ -4,7 +4,7 @@ require! {
 }
 
 class exports.Collection implements eventide
-	(@models = [])->
+	(@models = [])~>
 		@models.for-each @~reflect
 
 	add: (model)->
@@ -34,9 +34,9 @@ class exports.Model extends Map implements eventide
 	@all = ->
 		@collection ?= new Collection
 
-	(attrs)->
+	(attrs)~>
 		super!
-		@set attrs
+		@set attrs if attrs
 		@@all!.add this
 		@emit \create
 
