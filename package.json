@@ -1,0 +1,38 @@
+{
+  "name": "klum",
+  "version": "0.0.0",
+  "description": "Unassumptive data models",
+  "main": "lib",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/quarterto/Klum.git"
+  },
+  "keywords": [
+    "model",
+    "sync",
+    "event",
+    "tracking",
+    "data",
+    "mvc",
+    "framework"
+  ],
+  "author": "Matt Brennan <mwrbrennan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quarterto/Klum/issues"
+  },
+  "homepage": "https://github.com/quarterto/Klum",
+  "devDependencies": {
+    "LiveScript": "^1.2.0",
+    "karma-sinon-expect": "^0.1.4",
+    "make-livescript": "0.0.0",
+    "mocha": "^1.20.1"
+  },
+  "dependencies": {
+    "es6-map": "^0.1.0",
+    "eventide": "^0.2.0"
+  }
+}
